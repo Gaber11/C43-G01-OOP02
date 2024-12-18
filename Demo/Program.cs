@@ -1,7 +1,6 @@
 ﻿using Demo.Encapsulation;
 using Demo.Inhertance;
 using System.Security.Claims;
-using Common;
 
 namespace Demo
 {
@@ -83,6 +82,9 @@ namespace Demo
             //TypeA typeA = new TypeA();
             // typeA.X = 10; // invalid --> private
             // typeA.Y = 10; // invalid -->internal
+
+            #endregion
+            #region Part 11 Access Modifiers (private protected, protected, internal protected) EX01
 
             #endregion
         }
