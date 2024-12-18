@@ -46,6 +46,16 @@ namespace Demo
 
             #endregion
 
+            #region Part 03 Class
+
+            // Car c1 = new Car(1,"Reuml trgen", 220);
+                        
+            Car c1 = new Car(2002,"Niseya");
+
+            Console.WriteLine(c1);
+
+            #endregion
+
         }
     }
 }
