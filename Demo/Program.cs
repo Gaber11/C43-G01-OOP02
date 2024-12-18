@@ -1,4 +1,6 @@
 ﻿using Demo.Encapsulation;
+using Demo.Inhertance;
+using System.Security.Claims;
 
 namespace Demo
 {
@@ -49,10 +51,26 @@ namespace Demo
             #region Part 03 Class
 
             // Car c1 = new Car(1,"Reuml trgen", 220);
-                        
-            Car c1 = new Car(2002,"Niseya");
 
-            Console.WriteLine(c1);
+            //Car c1 = new Car(2002,"Niseya");
+
+            //Console.WriteLine(c1);
+
+            #endregion
+
+            #region Part 05 OOP Pillars - Inheritance
+
+           // Parent parent = new Parent(5, 7);
+           // parent.X = 11;
+           // parent.Y = 22;
+           // Console.WriteLine(parent);
+           // Console.WriteLine($"Product : {parent.Product()}");
+          //Child child=new Child(1,2,3);
+          //child.X = 20;
+          //child.Y = 30;   
+          //child.Z = 50;
+          //Console.WriteLine(child);
+          //Console.WriteLine($"Product : {child.Product()}");
 
             #endregion
 
