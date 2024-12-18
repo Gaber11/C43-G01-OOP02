@@ -26,6 +26,26 @@
 
 
             #endregion
+
+            #region 2-Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+            //Person[] pers = new Person[3];
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Enter details for person {i + 1}:");
+            //    Console.Write("Name: ");
+            //    pers[i].Name = Console.ReadLine();
+            //    Console.Write("Age: ");
+            //    pers[i].Age = int.Parse(Console.ReadLine());
+            //}
+            //Person oldestPerson = (pers[0].Age > pers[1].Age)
+            //     ? (pers[0].Age > pers[2].Age ? pers[0] : pers[2])
+            //     : (pers[1].Age > pers[2].Age ? pers[1] : pers[2]);
+            //Console.WriteLine($"The oldest person is {oldestPerson.Name} who is {oldestPerson.Age} years old.");
+
+            #endregion
+
+            
+
         }
     }
 }
