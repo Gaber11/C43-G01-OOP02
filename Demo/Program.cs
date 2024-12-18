@@ -60,20 +60,23 @@ namespace Demo
 
             #region Part 05 OOP Pillars - Inheritance
 
-           // Parent parent = new Parent(5, 7);
-           // parent.X = 11;
-           // parent.Y = 22;
-           // Console.WriteLine(parent);
-           // Console.WriteLine($"Product : {parent.Product()}");
-          //Child child=new Child(1,2,3);
-          //child.X = 20;
-          //child.Y = 30;   
-          //child.Z = 50;
-          //Console.WriteLine(child);
-          //Console.WriteLine($"Product : {child.Product()}");
+            // Parent parent = new Parent(5, 7);
+            // parent.X = 11;
+            // parent.Y = 22;
+            // Console.WriteLine(parent);
+            // Console.WriteLine($"Product : {parent.Product()}");
+            //Child child=new Child(1,2,3);
+            //child.X = 20;
+            //child.Y = 30;   
+            //child.Z = 50;
+            //Console.WriteLine(child);
+            //Console.WriteLine($"Product : {child.Product()}");
 
             #endregion
 
+            #region Part 07 Association [Composition - Aggregation]
+
+            #endregion
         }
     }
 }
