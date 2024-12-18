@@ -1,6 +1,7 @@
 ﻿using Demo.Encapsulation;
 using Demo.Inhertance;
 using System.Security.Claims;
+using Common;
 
 namespace Demo
 {
@@ -75,6 +76,13 @@ namespace Demo
             #endregion
 
             #region Part 07 Association [Composition - Aggregation]
+
+            #endregion
+
+            #region Part 10 Access Modifiers (private, internal, public)
+            //TypeA typeA = new TypeA();
+            // typeA.X = 10; // invalid --> private
+            // typeA.Y = 10; // invalid -->internal
 
             #endregion
         }
