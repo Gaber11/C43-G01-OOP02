@@ -1,4 +1,6 @@
-﻿namespace Assigment
+﻿using System.Reflection.Emit;
+
+namespace Assigment
 {
     internal class Program
     {
@@ -44,7 +46,12 @@
 
             #endregion
 
-            
+            #region Part3) 1.	Design and implement a Class for the employees in a company:Employee is identified by an ID, Name, security level, salary, hire date and Gender.
+
+            //Employee employee = new Employee(0,"Gaber","High",5000,5,"male");
+            //Console.WriteLine(employee);
+
+            #endregion
 
         }
     }
