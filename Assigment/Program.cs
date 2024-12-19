@@ -53,13 +53,11 @@ namespace Assigment
 
             #endregion
 
-            #region Develop a Class to represent the Hiring Date Data:consisting of fields to hold the day, month and Years.
-
-         
-
-
+            #region Develop a Class to represent the Hiring Date Data:consisting of fields to hold the day, month and Years.  
 
             #endregion
+
+
         }
     }
 }

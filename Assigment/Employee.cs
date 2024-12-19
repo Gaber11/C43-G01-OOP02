@@ -7,32 +7,37 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assigment
 {
-   public class DateTime
+ public enum Gender
     {
-        DateTime HireDate = new DateTime();
+        m,
+        f
     }
+   //public class DateTime
+   // {
+   //     DateTime HireDate = new DateTime();
+   // }
     public class Employee
     {
         private protected int Id;
         private protected string? Name;
         private protected string? Security_level;
         private protected decimal Salary;
-        private protected DateTime HireDate;
-        private protected string? Gender;
+      //  private protected DateTime HireDate;
+        private protected Gender Gender;
 
-        public Employee(int Id, string? Name, string? Security_level, decimal Salary, DateTime HireDate, string? Gender)
+        public Employee(int Id, string? Name, string? Security_level, decimal Salary, Gender Gender)
         {
             this.Name = Name;
             this.Id = Id;   
             this.Security_level = Security_level;
             this.Salary = Salary;
-            this.HireDate = HireDate;
+           // this.HireDate = HireDate;
             this.Gender = Gender;
 
         }
         public override string ToString()
         {
-            return $"Name : {Name}\nID: {Id}\nSecurity_level: {Security_level}\nSalary: {Salary}\nGender: {Gender} ";
+            return $"Name : {Name}\nID: {Id}\nSecurity_level: {Security_level}\nSalary: {Salary}\nGender: {Gender.m} ";
         }
 
     }
