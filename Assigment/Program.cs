@@ -57,7 +57,15 @@ namespace Assigment
 
             #endregion
 
+            #region 4.We need to restrict the Gender field to be only M or F [Male or Female] 
+            Employee emp = new Employee(0, "Gaber", "High", 5000, Gender.m);
 
+            Console.WriteLine(emp);
+
+
+
+
+            #endregion
         }
     }
 }
