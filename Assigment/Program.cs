@@ -58,14 +58,19 @@ namespace Assigment
             #endregion
 
             #region 4.We need to restrict the Gender field to be only M or F [Male or Female] 
-            Employee emp = new Employee(0, "Gaber", "High", 5000, Gender.m);
+            //Employee emp = new Employee(0, "Gaber", "High", 5000, Gender.m);
 
-            Console.WriteLine(emp);
-
-
-
+            //Console.WriteLine(emp);
 
             #endregion
+
+            #region Assign the following security privileges to the employee (guest, Developer, secretary and DBA) in a form of Enum
+
+            //Employee employee = new Employee();
+            //Console.WriteLine(SecurityPrivileges.DBA); 
+
+            #endregion
+
         }
     }
 }
