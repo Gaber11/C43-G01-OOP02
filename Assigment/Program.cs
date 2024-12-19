@@ -71,6 +71,14 @@ namespace Assigment
 
             #endregion
 
+            #region 5.	We want to provide the Employee Class to represent Employee data in a string Form (override ToString ()), display employee salary in a currency format. [ use String.Format Function]
+
+            //Employee employee = new Employee();         
+            //Console.WriteLine(employee);
+
+
+            #endregion
+
         }
     }
 }
