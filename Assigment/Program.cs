@@ -1,4 +1,6 @@
 ﻿using System.Reflection.Emit;
+using System.Security.Cryptography;
+using System.Threading;
 
 namespace Assigment
 {
@@ -76,6 +78,23 @@ namespace Assigment
             //Employee employee = new Employee();         
             //Console.WriteLine(employee);
 
+
+            #endregion
+
+            #region 6.Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee[] EmpArr;)
+
+            //Employee[] EmpArr = new Employee[3];
+
+          
+            //EmpArr[0] = new Employee("Alice", "DBA", "Manage Database");
+            //EmpArr[1] = new Employee("Bob", "Guest", "Read Only");
+            //EmpArr[2] = new Employee("Charlie", "Security Officer", "Full Permissions");
+
+       
+            //foreach (var emp in EmpArr)
+            //{
+            //    emp.DisplayData();
+            //}
 
             #endregion
 
